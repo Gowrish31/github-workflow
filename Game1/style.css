@@ -1,0 +1,164 @@
+/* Set a dark background with gradient or pattern; center the game container */
+body {
+    background: linear-gradient(135deg, #1a1a1a, #333);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style game-container: max-width 600px, margin auto, padding, dark background, border-radius, and box-shadow */
+.game-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px 30px;
+    background-color: #222;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Style h1 with gradient text or light-blue color, center aligned, and custom font if possible */
+h1 {
+    text-align: center;
+    color: #00bfff;
+    font-size: 2.8em;
+    margin-bottom: 30px;
+}
+
+/* Style score boxes: rounded squares, flex layout, large font, bold white text; center the red 'vs' badge */
+.score-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 15px 20px;
+    border-radius: 12px;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.vs-circle {
+    background-color: #ff4d4d;
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px 14px;
+    font-size: 1em;
+    margin: 0 15px;
+}
+
+/* Style round tracker: dark translucent background, centered, small caps font, light blue text */
+#round-number {
+    background-color: rgba(34, 34, 34, 0.85);
+    color: #00bfff;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+/* Style choice buttons: large square buttons with icons or emojis, padding, hover scale effect, unique background colors for each */
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.choice-button {
+    font-size: 1.2em;
+    padding: 14px 26px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.choice-button:hover {
+    transform: scale(1.08);
+    background-color: #444;
+}
+
+/* Style choices display: two large square boxes with '?' initially, labels 'Your choice' and 'Computer’s choice' below each box */
+.choices-display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+#player-choice,
+#computer-choice {
+    background-color: #111;
+    font-size: 1.2em;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 2px solid #444;
+}
+
+/* Style message div: centered bold white text under choices */
+#message {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+
+/* Style Reset button: gradient orange-red background, white text, rounded corners, hover transition */
+#reset-button {
+    background: linear-gradient(135deg, #ff4500, #ff6347);
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background 0.3s ease;
+    display: block;
+    margin: 40px auto 0;
+}
+
+#reset-button:hover {
+    background: linear-gradient(135deg, #e03e00, #ff5733);
+}
+
+/* Add media query to stack buttons and shrink UI on mobile (< 500px) */
+@media (max-width: 500px) {
+    .game-container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .score-panel {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .button-group {
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+    }
+    .choices-display {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
