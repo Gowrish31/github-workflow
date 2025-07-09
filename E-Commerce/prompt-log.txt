@@ -1,0 +1,64 @@
+Prompt Log 1
+Prompt:
+How to style a modern header with flexbox and spacing?
+
+AI Response Summary:
+Suggested using display: flex, justify-content: space-between, and align-items: center with padding.
+
+My Implementation:
+Used the suggested properties and added background color and font family for a modern look.
+
+Reflection:
+Helped me understand how Flexbox handles horizontal layout and spacing neatly.
+
+Prompt Log 2
+Prompt:
+How to style navbar links with hover animation using CSS?
+
+AI Response Summary:
+Suggested adding transition and :hover effects for smooth interaction.
+
+My Implementation:
+Used transition: color 0.3s ease and changed color on hover.
+
+Reflection:
+I liked how easy it was to make interactions feel polished with just a few lines of CSS.
+
+Prompt Log 3
+Prompt:
+How to center a hero section vertically and horizontally using Flexbox?
+
+AI Response Summary:
+Recommended using display: flex, flex-direction: column, and justify-content: center, align-items: center.
+
+My Implementation:
+Followed the advice and it made the hero section perfectly centered.
+
+Reflection:
+Flexbox became much clearer to me through this — now I feel confident using it for layout.
+
+Prompt Log 4
+Prompt:
+CSS for responsive and attractive buttons with hover effects
+
+AI Response Summary:
+Used padding, background color, border-radius, and :hover transitions.
+
+My Implementation:
+Applied the styles to both hero and product card buttons. Added consistent colors and animation.
+
+Reflection:
+This showed me how small UI tweaks can greatly improve user experience.
+
+Prompt Log 5
+Prompt:
+How to create a responsive product card layout using CSS Grid?
+
+AI Response Summary:
+Suggested display: grid with grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)).
+
+My Implementation:
+Implemented exactly as suggested and added gap and padding.
+
+Reflection:
+I learned how CSS Grid adapts beautifully to different screen sizes.
