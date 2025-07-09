@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Prompt: Game container -->
+  <div class="game-container">
+    
+    <!-- Prompt: Main heading -->
+    <h1>Rock Paper Scissors</h1>
+
+    <!-- Prompt: Scoreboard with player, VS, and computer score -->
+    <div class="scoreboard">
+      <span>You: <span id="player-score">0</span></span>
+      <span class="vs">VS</span>
+      <span>Computer: <span id="computer-score">0</span></span>
+    </div>
+
+    <!-- Prompt: Round tracker -->
+    <div id="round-number">Round 1</div>
+
+    <!-- Prompt: Choice buttons -->
+    <div class="buttons">
+      <button id="rock-btn">🪨 Rock</button>
+      <button id="paper-btn">📄 Paper</button>
+      <button id="scissors-btn">✂️ Scissors</button>
+    </div>
+
+    <!-- Prompt: Show each player's choice -->
+    <div class="choices">
+      <p>Your choice: <span id="player-choice">?</span></p>
+      <p>Computer's choice: <span id="computer-choice">?</span></p>
+    </div>
+
+    <!-- Prompt: Result display with styling classes -->
+    <div class="result" id="result">Make your choice!</div>
+
+    <!-- Prompt: Reset button -->
+    <button class="reset-button" id="reset-button">🔄 Reset Game</button>
+
+  </div>
+</body>
+</html>

@@ -70,3 +70,5 @@ Prepare Copilot prompts as a team before using
 | Quiz logic (MVP)           | In Progress |
 | UI design                  | In Progress |
 | Final testing and polish   | Upcoming  |
+
+
