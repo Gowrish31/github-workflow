@@ -1,0 +1,82 @@
+/* Reset default browser margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set base font and background for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+}
+
+/* Container for the weather app layout */
+.weather-container {
+  max-width: 400px;
+  margin: 50px auto; /* center the container */
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+/* Main heading style */
+.heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for the search input field */
+.search-input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style for the search button */
+.search-button {
+  width: 25%;
+  padding: 10px;
+  background: #007bff; /* blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+  background: #0056b3;
+}
+
+/* Container for displaying the weather result */
+.weather-result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style for displaying error messages */
+.error-message {
+  color: red;
+}
+
+/* Weather condition text style */
+.weather-condition {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Temperature number styling */
+.temperature {
+  font-size: 48px;
+  color: #007bff;
+  margin: 10px 0;
+}
+
+/* Additional weather details */
+.details {
+  color: #666;
+}
