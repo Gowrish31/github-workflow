@@ -1,0 +1,9 @@
+Feedback Summary
+----------------
+
+All key features — adding tasks, deleting them, and marking them as completed — were tested and worked as expected. The use of localStorage was effective, as tasks remained saved even after closing and reopening the browser.
+
+User Testing Highlights:
+- The localStorage feature was immediately noticeable to all users.
+- 2 out of 3 users said it improved the overall experience of the app.
+- 1 user suggested adding support for task categories, which could be considered for a future update.

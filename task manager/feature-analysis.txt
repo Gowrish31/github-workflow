@@ -1,0 +1,17 @@
+PROJECT: Task Manager App  
+FEEDBACK ANALYZED: None (feature chosen based on obvious improvement)
+
+QUICK WIN IDENTIFIED:  
+- Use localStorage to store tasks (Impact: High, Effort: Low)
+
+SELECTED FEATURE: localStorage support
+
+REASON: Without this, tasks disappear on refresh. Storing tasks in localStorage makes the app usable in real life.
+
+USER STORY:  
+"As someone using this task app, I want my tasks to be saved in the browser so I don't lose them."
+
+KEY PROMPT USED FOR COPILOT:
+// TODO: Store tasks in localStorage when they are added or deleted.
+// TODO: Load tasks from localStorage when the page loads.
+// Each task should include its text and whether it's marked as done.
